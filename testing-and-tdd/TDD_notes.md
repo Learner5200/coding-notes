@@ -1,5 +1,7 @@
 # Test-Driven Development
 
+* **REMEMBER: do not blindly follow TDD or any other principle as an ideology. Know when and why TDD is useful for a particular task, to achieve a particular goal, and do not use it outside of these boundaries. Be able to justify why you did or didn't TDD a given project.**
+
 ## Intro
 * Testing comes in at the *planning* stage - we write tests for the (not-yet-existent) classes, methods and functions that will meet our main objectives
 * **Feature** tests check for the existence of major features/objectives
