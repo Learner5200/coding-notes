@@ -52,5 +52,10 @@ DELETE  /restaurants/:id       restaurants#destroy
   * **Uniform interface**: resources are clearly identified in requests.
     - data that is transferred is decoupled from DB schema
 
+
+## Why?
+
+* Supposedly most of the benefits are about statelessness and decoupling client from server.
+
 * **THESE ARTICLES ARE INSANELY USEFUL:** https://learn.co/lessons/sinatra-restful-routes-readme
 https://learn.co/lessons/sinatra-dynamic-routes-codealong

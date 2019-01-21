@@ -8,6 +8,7 @@
 ## Servers
 
 * Pieces of software that respond to requests and return stuff
+* Presented as a single machine virtually, but may actually be a collection of servers sharing the load.
 
 ## How they relate
 
@@ -28,6 +29,15 @@
   * HTTP messages are really just strings, though they contain various info
   * Can transfer anything in an HTTP message as long as the headers specify what it is.
   * HTTP is *stateless*, though TCP/IP is not.
+
+## Proxies
+
+* Several computers/machines act as **relays** between browser and server.
+* Those operating at the application layers are usually called **proxies**, and perform several functions:
+  - caching
+  - filtering (e.g. antivirus, parental controls)
+  - load balancing
+  - authentication (to control access to different resources)
 
 ## Sockets
 

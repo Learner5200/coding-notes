@@ -64,3 +64,5 @@ $.ajax({
   alert( "The request is complete!" );
 });
 ```
+
+* Fetch and promises are used instead these days! Or axios, etc.

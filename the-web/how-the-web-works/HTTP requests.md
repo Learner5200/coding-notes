@@ -1,5 +1,45 @@
 ## HTTP Requests
 
+## What is HTTP
+
+* An application-layer (see TCP/IP) protocol for transmitting documents like HTML etc between client and server.
+* It's **stateless** - the server doesn't keep any state between two requests, unless things are cached etc.
+
+## Anatomy of an HTTP Request
+
+* **HTTP Method**: GET, POST, others
+* **Path** of the resource to fetch (URL without the domain name - e.g. /posts)
+* Version of the HTTP protocol
+* Optional **headers** that convey additional info for the servers
+* A **body** for stuff like POST, containing resources sent
+
+![request](images/2019/01/request.png)
+
+## Anatomy of an HTTP Response
+
+* Version of protocol
+* **Status code** indicating success or not.
+* Status message
+* Headers
+
+* ![response](images/2019/01/response.png)
+
+## HTTP Headers
+
+* Allow client/server to pass additional information in request or response, in the form of name-value pairs
+* Can contain
+  - general info pertaining to requests and responses
+  - request headers with more info about the resource to be fetched
+  - response headers with more info about the response (e.g. location, sever stuff)
+  - entity header with more info about the body: e.g. content-length, MIME type
+* Examples:
+  - cookies
+  - CORS
+  - security
+
+
+## Parameters
+
 * Within HTTP, we call data sent from a client to a server a **parameter**. Just like Ruby's hashes, parameters come as key-value pairs and a request can contain multiple parameters.
 * One way of sending a parameter to a server is to pass it in the **query string**. The query string is a string that can be appended to an URL.
   * e.g. "www.example.com/home?name=Bob&age=21"
