@@ -23,9 +23,11 @@
     * 5.xx = server error
   * Has information in a *message body*: HTML, CSS, JS, other files, etc.
   *
-* These messages typically use a protocol called **HTTP** (Hyper-Text Transfer Protocol)
+* These messages typically use a protocol called **HTTP** (Hyper-Text Transfer Protocol, build on top of TCP/IP)
   * This protocol is a set of rules that govern how the different bits of these messages are to be interpreted and set
   * HTTP messages are really just strings, though they contain various info
+  * Can transfer anything in an HTTP message as long as the headers specify what it is.
+  * HTTP is *stateless*, though TCP/IP is not.
 
 ## Sockets
 

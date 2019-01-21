@@ -32,3 +32,8 @@
 * **Easy to test**, as we don't need to mock anything (remember we mock to prevent dependency on things that change, but we're not depending on outside stuff with pure functions)
 * Supposedly facilitates a **declarative** style of writing code (write what you need to get done, in terms of your goals etc.) rather than an **imperative** style (what exact actions to perform, how to do it)
   - e.g. using map, rather than explaining how to iterate through collection and transform
+
+## Cons
+
+* Barriers to entry/smaller community (not really a downside though...)
+* Less intuitive to write (and read, I guess), as it doesn't model the real world as isomorphically
