@@ -20,3 +20,11 @@
 
 * Relationships between data can be stored as **links** (references) from one document to another - I guess like foreign keys
 * They can also be stored via embedded data models: storing another document as the value of a field
+
+![mongo vs sql](images/2019/01/mongo-vs-sql.png)
+
+## How to use it
+
+* Can install it on machine
+* **MongoDB Atlas** is MongoDB on the cloud - can get started for free.
+  - 'database as a service', saves you doing a lot of stuff.

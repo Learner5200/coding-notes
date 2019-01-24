@@ -1,6 +1,7 @@
 # Cross-Origin Resource Sharing
 
 * CORS is a mechanism that uses additional HTTP headers to tell a browser whether or not to let a web app running at one origin/domain (e.g. supermarket.com) to access certain server resources at another origin/domain (e.g. bananas.com).
+  - for a RESTful API, you typically want people to be able to make CORS requests, so should try to find out how to append the allow-origins headers to every response, and the allow-methods header to every response to an OPTIONS request
 * A website makes a cross-origin HTTP request whenever it requests a resource at a different origin to its own.
 
 * For security reasons, browsers restrict such programmatic requests:
