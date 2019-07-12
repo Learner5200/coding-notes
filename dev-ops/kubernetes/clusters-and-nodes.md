@@ -4,8 +4,9 @@
 
 * A node is a worker machine in Kubernetes
 * It can be either a physical computer or a VM
+* An individual node can run multiple containers, and different nodes can run different containers
 
-![node-diagram](images/2019/05/node-diagram.png)
+![node-diagram](/images/2019/05/node-diagram.png)
 
 ## Clusters
 
@@ -14,6 +15,7 @@
   - scheduling applications
   - managing desired state
   - etc
+* We communicate with the master
 * The master node exposes the Kubernetes API, which the nodes - and end users - can interact with
 
 

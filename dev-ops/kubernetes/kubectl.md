@@ -24,10 +24,10 @@
 
 The most common operations can be done with the following kubectl commands:
 
-* `kubectl get` - list resources
-* `kubectl describe` - show detailed information about a resource
-* `kubectl logs` - print the logs from a container in a pod
-* `kubectl exec` - execute a command on a container in a pod
+* `kubectl get [Object]` - list resources
+* `kubectl describe [Object]` - show detailed information about a resource
+* `kubectl logs [container name]` - print the logs from a container in a pod
+* `kubectl exec [pod name -c containerName]` - execute a command on a container in a pod
 
 
 * `kubectl proxy` creates a proxy to forward communications into the (private) kubernetes cluster-->allows direct access to the API from the terminal via curl commands etc to the provided endpoint
